@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+~$*
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Large raw datasets
+# Uncomment if you do not want to upload the original dataset
+# data/household_power_consumption.txt
